@@ -1,247 +1,666 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
 
-<head>
-  <!-- Metadata of the Webpage -->
-  <!-- Character-set Metadata -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Viewport Metadata -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Description Metadata-->
-  <meta name="description" content="Portfolio Website" />
-  <!-- Author Metadata -->
-  <meta name="author" content="Aditya Vikram Singh" />
-  <!-- Keyword Metadata -->
-  <meta name="keywords" content="Aditya Singh, Aditya Vikram Singh, Aditya Vikram Singh DPS,
-        Aditya Vikram Singh DPSRKP, Aditya Vikram Singh UMass, Aditya Vikram
-        Singh UMass Amherst, Aditya Vikram Singh New Delhi, Aditya Vikram
-        Singh Amherst, Aditya Vikram Singh ISSDC, Aditya Vikram Singh NASA,
-        Aditya Vikram Singh, Aditya Vikram Singh Website, Aditya V Singh" />
-  <!-- Webpage Logo -->
-  <link rel="shortcut icon" href="./assets/img/favicon.ico" />
-  <!-- Webpage Title -->
-  <title>Richard Chan</title>
+        <!-- Metadata of the Webpage -->
+        <!-- Character-set Metadata -->
+        <meta charset="utf-8">
+        <!-- Viewport Metadata -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,
+            maximum-scale=1.0, user-scalable=no">
+        <!-- Description Metadata-->
+        <meta name="description" content="Personal Résumé Website of Aditya Vikram
+            Singh">
+        <!-- Author Metadata -->
+        <meta name="author" content="Aditya Vikram Singh">
+        <!-- Keyword Metadata -->
+        <meta name="keywords"
+            content="Aditya Singh, Aditya Vikram Singh, Aditya Vikram Singh DPS,
+            Aditya Vikram Singh DPSRKP, Aditya Vikram Singh UMass, Aditya Vikram
+            Singh UMass Amherst, Aditya Vikram Singh New Delhi, Aditya Vikram
+            Singh Amherst, Aditya Vikram Singh ISSDC, Aditya Vikram Singh NASA,
+            Aditya Vikram Singh, Aditya Vikram Singh Website, Aditya V Singh">
+        <!--OpenGraph Metadata-->
+        <!--OpenGraph Title-->
+        <meta property="og:title" content="Aditya Vikram Singh" />
+        <!--OpenGraph Description-->
+        <meta property="og:description" content="Aditya Vikram Singh" />
+        <!--OpenGraph Image-->
+        <meta property="og:image"
+            content="https://www.adityavsingh.com/assets/cocoa-beach-me.jpg" />
+        <!-- Webpage Logo -->
+        <link rel="shortcut icon" href="favicon.ico" />
+        <!-- Webpage Title -->
+        <title>Jose Luis</title>
 
-  <!-- Import CSS: Main Stylesheet -->
-  <link rel="stylesheet" href="./assets/css/main.css" />
-</head>
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <!-- Google Fonts CSS -->
+        <!-- Rubik Font-->
+        <link href="https://fonts.googleapis.com/css?family=Rubik|DM+Sans&display=swap"
+            rel="stylesheet" type='text/css'>
+        <!-- main CSS -->
+        <link href="css/main.css" rel="stylesheet">
 
-<body>
-  <div id="particles-js">
-    <div class="header">
-      <h1>
-        <span class="site-title">Richard Chan</span>
-        <span class="site-description">Programmer • Web Developer • App developer</span>
-      </h1>
-      <div class="header-icons">
-        <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.telegram.com/in/avs1508/">
-          <i class="icon fa fa-telegram" aria-hidden="true"></i>
-        </a>
-        <a aria-label="My Github Profile" target="_blank" href="https://github.com/AVS1508">
-          <i class="icon fa fa-github-alt" aria-hidden="true"></i>
-        </a>
-        <a aria-label="My Résumé" target="_blank" href="https://www.skype.com">
-          <i class="icon fa fa-skype" aria-hidden="true"></i>
-        </a>
-        <a aria-label="Send Email" href="https://www.gmail.com" target="_blank"><i
-            class="icon fa fa-inbox"></i></a>
-      </div>
-      <div class="header-links">
-        <a class="link" href="#about" data-scroll>About Me</a>
-        <a class="link" href="#projects" data-scroll>Projects</a>
-      </div>
-    </div>
-    <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
-  </div>
+        
+        <!--jQuery JS-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <!--Popper JS-->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <!-- Font Awesome Logos JS-->
+        <script src="https://kit.fontawesome.com/ee9ada9308.js" crossorigin="anonymous"></script>
+        <!--Bootstrap JS-->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <!-- main JS -->
+        <script src="js/main.js"></script>
 
-  <!-- About Section -->
-  <section id="about">
-    <!-- User Introduction-->
-    <div class="user-details">
-      <h1>My Story</h1>
-      <picture>
-        <source type="image/webp" srcset="./assets/img/webp/Capture4.webp" alt="Professional Me"
-          width="20%" style="border-radius: 50%" />
-        <img src="./assets/img/jpg/Professional-Picture-Me.jpg" alt="Professional Me" width="20%"
-          style="border-radius: 50%" />
-      </picture>
-      <p>
-        I graduated from college of Information and Computer Sciences at the Universiti Malaya (UM),
-        pursuing an undergraduate degree. After graduation, I worked at sony company in Japan.
-        During that time, we solved many problems and gained rich experience. Currently working as a freelancer.
-      </p>
-    </div>
+    </head>
 
-    <!-- User Specifics -->
-    <div class="user">
-      <!-- Technology Stack #1: Languages -->
-      <div class="tech">
-        <h2>Languages</h2>
-        <i class="devicon-python-plain colored"></i>
-        <i class="devicon-java-plain-wordmark colored"></i>
-        <i class="devicon-cplusplus-plain colored"></i>
-        <i class="devicon-javascript-plain colored"></i>
-        <p>My favorite languages for systems programming, software engineering, and data analysis.</p>
-      </div>
+    <body>
+        <!--NAVIGATION MENU-->
+        <nav id="navmenu" class="navbar navbar-dark fixed-top navbar-expand-lg">
+            <div class="container col-lg-12">
+                <div class="collapse navbar-collapse" id="outerNavbar">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#workexperience">Work Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#outerNavbar" aria-controls="outerNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
 
-      <!-- Technology Stack #2: Front-End -->
-      <div class="tech">
-        <h2>Front-End</h2>
-        <i class="devicon-react-original colored"></i>
-        <i class="devicon-bootstrap-plain-wordmark colored"></i>
-        <i class="devicon-html5-plain-wordmark colored"></i>
-        <i class="devicon-css3-plain-wordmark colored"></i>
-        <p>My preferred technologies for front-end web development and component design.</p>
-      </div>
-
-      <!-- Technology Stack #3: Back-End -->
-      <div class="tech">
-        <h2>Back-End</h2>
-        <i class="devicon-nodejs-plain colored"></i>
-        <i class="devicon-express-original-wordmark colored"></i>
-        <i class="devicon-mongodb-plain-wordmark colored"></i>
-        <i class="devicon-postgresql-plain-wordmark colored"></i>
-        <p>My preferred technologies for back-end web programming and database architecture.</p>
-      </div>
-
-      <!-- Technology Stack #4: Tools -->
-      <div class="tech">
-        <h2>Tools</h2>
-        <i class="devicon-git-plain-wordmark colored"></i>
-        <i class="devicon-visualstudio-plain colored"></i>
-        <i class="devicon-github-plain-wordmark colored"></i>
-        <i class="devicon-docker-plain-wordmark colored"></i>
-        <p>My favorite tools for version control, code editing, and container orchestration.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects">
-    <div class="user-details">
-      <h1>Featured Projects</h1>
-    </div>
-
-    <!-- User Project #1: Personal Résumé Website -->
-    <div class="user-projects">
-      <div class="images-right">
-        <picture>
-          <source type="image/webp" srcset="./assets/img/webp/Personal-Resume-Website.webp" alt="Personal Website" />
-          <img alt="Personal Website" src="./assets/img/jpg/Personal-Resume-Website.jpg" />
-        </picture>
-      </div>
-      <div class="contents" style="text-align: center">
-        <h3>Personal Website</h3>
-        <div>
-          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/react.svg"
-            style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)" />
-          &nbsp;
-          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/bootstrap.svg"
-            style="filter: invert(24%) sepia(14%) saturate(2270%) hue-rotate(222deg) brightness(102%) contrast(90%)" />
-          &nbsp;
-          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
+        <!--HEADER SECTION-->
+        <div id="home" class="header navsection">
+            <div class="container">
+                <div class="row centered">
+                    <div class="col-lg-12">
+                        <!-- Header Name -->
+                        <h1 id="heading-name">Jose Luis</h1>
+                        <!-- Header Description-->
+                        <h3 id="heading-desc">PROGRAMMER • WEB DEVELOPER •
+                            GRAPHIC DESIGNER</h3>
+                    </div>
+                </div>
+            </div>
         </div>
-        <p style="text-align: justify">
-          I developed and designed a website using ReactJS and Bootstrap, hosted on Github Pages, to showcase my web
-          presence, story, work experience, education, projects, and achievements in an interactive and
-          visually-appealing format.
-        </p>
-        <!-- <a class="project-link" target="_blank" href="https://www.adityavsingh.com/">Check it out!</a> -->
-      </div>
-    </div>
 
-    <!-- User Project #2: Summer 2020 Project -->
-    <div class="user-projects">
-      <div class="images-left">
-        <picture>
-          <source type="image/webp" srcset="./assets/img/webp/Perpetual-Crusades.webp" alt="Perpetual Crusades" />
-          <img alt="Perpetual Crusades" src="./assets/img/jpg/Perpetual-Crusades.jpg" />
-        </picture>
-      </div>
-      <div class="contents-right" style="text-align: center">
-        <h3>Perpetual Crusades</h3>
-        <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/react.svg"
-          style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)" />
-        &nbsp;
-        <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/css3.svg"
-          style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)" />
-        &nbsp;
-        <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
-        <p style="text-align: justify">
-          I created a two-player online dice-based board game with a theme loosely set around Dungeons & Dragons. It
-          was developed as a submission for Penn Apps XXI, using ReactJS and CSS Grid Layouts for design and hosted on
-          GitHub Pages.
-        </p>
-        <!-- <a class="project-link" target="_blank" href="https://github.com/AVS1508/Summer-2020-Project">Check it out!</a> -->
-      </div>
-    </div>
-
-    <!-- User Project #3: COVID-19 Tracker App -->
-    <div class="user-projects">
-      <div class="images-right">
-        <picture>
-          <source type="image/webp" srcset="./assets/img/webp/COVID19-Tracker-App.webp" alt="COVID-19 Tracker App" />
-          <img alt="COVID-19 Tracker App" src="./assets/img/jpg/COVID19-Tracker-App.jpg" />
-        </picture>
-      </div>
-      <div class="contents" style="text-align: center">
-        <h3>COVID-19 Tracker App</h3>
-        <div>
-          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/javascript.svg"
-            style="filter: invert(96%) sepia(47%) saturate(4151%) hue-rotate(338deg) brightness(100%) contrast(95%)" />
+        <!-- ABOUT SECTION -->
+        <section id="about" name="about" class="navsection"></section>
+        <div class="about">
+            <div style="text-align: center">
+                <!-- About Heading -->
+                <h5 class="subheading">ABOUT ME</h5>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2" style="text-align:center;">
+                        <!-- About Image -->
+                        <img class="header-img .img-fluid"
+                            src="assets/professional-me.PNG">
+                    </div>
+                    <div class="col-lg-8">
+                        <!-- About Description -->
+                        <p id='about'>
+                            Innovative and results-driven Programmer, Web Developer, and Graphic Designer with over 7 years of experience in creating high-performance, visually appealing web applications. Adept in both frontend and backend development, with a keen eye for UI/UX design. Proven track record of managing teams, conducting code reviews, and delivering projects on time in Agile environments. Committed to continuous learning and staying updated with the latest industry trends.
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
-        <p style="text-align: justify">
-          I created a web application for tracking the spread of COVID-19. Using Johns Hopkins University Center For
-          Systems Science and Engineering API, the website processes the COVID-19 data to create statistical
-          projections through graphs and charts.
-        </p>
-        <!-- <a class="project-link" target="_blank" href="https://www.adityavsingh.com/covid19-tracker-app">
-          Check it out!
-        </a> -->
-      </div>
-    </div>
 
-    <!-- Use Project #4: Valuto: Account Management System -->
-    <div class="user-projects">
-      <div class="images-left">
-        <picture>
-          <source type="image/webp" srcset="./assets/img/webp/Valuto-Account-Management.webp"
-            alt="Valuto: Account Management System" />
-          <img alt="Valuto: Account Management System" src="./assets/img/jpg/Valuto-Account-Management.jpg" />
-        </picture>
-      </div>
-      <div class="contents-right" style="text-align: center">
-        <h3>Valuto: Account Management System</h3>
-        <div>
-          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/cplusplus.svg"
-            style="filter: invert(22%) sepia(77%) saturate(1486%) hue-rotate(183deg) brightness(101%) contrast(103%)" />
+        <!--SOCIAL MEDIA PANEL-->
+        <div class="social-panel-outer">
+            <div class="social-panel" style="opacity: 1; bottom: 40px;">
+                <!--Github Link-->
+                <!-- <a class="social-icon-2" href="https://github.com/AVS1508"
+                    target="_blank"><i
+                        class="fab fa-github-square"></i></a>
+                &emsp; -->
+                <!--Behance Link-->
+                <a class="social-icon-2" href="https://www.behance.net/AVS1508"
+                    target="_blank"><i
+                        class="fab fa-behance-square"></i></a>
+                &emsp;
+                <!--LinkedIn Link-->
+                <a class="social-icon-2"
+                    href="https://www.linkedin.com/in/avs1508" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                &emsp;
+                <!--Facebook Link-->
+                <a class="social-icon-2" href="https://www.facebook.com/AVS1508"
+                    target="_blank"><i
+                        class="fab fa-facebook-square"></i></a>
+                &emsp;
+                <!--Instagram Link-->
+                <a class="social-icon-2"
+                    href="https://www.instagram.com/adityavs_/" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                &emsp;
+                <!--Snapchat Link-->
+                <a class="social-icon-2"
+                    href="https://www.snapchat.com/add/avsingh134"
+                    target="_blank"><i
+                        class="fab fa-snapchat-square"></i></a>
+            </div>
         </div>
-        <p style="text-align: justify">
-          I developed a CLI system for accounting management and financial statement maintenance. The purpose of the
-          system is to maintain a record of the funds received, used, disseminated and donated by an organization.
-          Details of transactions and maintenance of a budget and tallying of current balance/inventory in cash/kind
-          is incorporated in this system.
-        </p>
-        <!-- <a class="project-link" target="_blank" href="https://github.com/AVS1508/Valuto-Account-Management-System">
-          Check it out!
-        </a> -->
-      </div>
-    </div>
-  </section>
 
-  <footer class="footer">
-    <p>&copy; Richard Chan, 2024</p>
-  </footer>
+        <!-- RESUME SECTION -->
+        <section id="resume" name="resume"></section>
 
-  <!-- Import JS: Particles Theme -->
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <!-- Import JS: Sweet Scroll -->
-  <script src="./assets/js/sweet-scroll.min.js"></script>
-  <!-- Import JS: Google Analytics -->
-  <script src="./assets/js/google-analytics.js"></script>
-  <!-- Import JS: Main Script -->
-  <script src="./assets/js/main.js"></script>
-</body>
+        <!-- EDUCATION SECTION -->
+        <div id="education" class="container desc navsection">
+            <div class="row">
+                <div class="col-lg-2 offset-lg-1">
+                    <!--Education Heading-->
+                    <h5 class="subheading">EDUCATION</h5>
+                </div>
+                <!--Education #1-->
+                <div class="col-lg-6">
+                    <p>
+                        <t>Bachelor of Science in Computer
+                            Science</t><br />
+                        
+                            Bulacan State University, Bulacan, Philippines
+                    </p>
+                </div>
+                <div class="col-lg-3">
+                    <p style="margin-bottom: 0;">
+                        
+                        
+                        <p style="line-height: 125%">
+                            <sm>01/2014 - 01/2016</sm>
+                        </p>
+                    </p>
+                </div>
 
+            </div>
+            <br />
+            <hr>
+        </div>
+
+       
+
+        <!-- WORK EXPERIENCE SECTION -->
+        <div id="workexperience" class="container desc navsection">
+            <div class="row">
+                <div class="col-lg-2 offset-lg-1">
+                    <!-- Work Experience Heading-->
+                    <h5 class="subheading">WORK EXPERIENCE</h5>
+                </div>
+                <!-- Work Experience #1 -->
+                <div class="col-lg-6">
+                    <p class="tight">
+                        <t>Freelance Web Developer</t><br />
+                        
+                    </p>
+                    <p>
+                        <em> • Developed custom websites for small businesses using HTML, CSS,
+                            and JavaScript.
+                            <br /> • Ensured cross-browser compatibility and mobile responsiveness for
+                            all projects.
+                            <br /> • Worked directly with clients to understand their needs and deliver
+                            tailored solutions.
+                            <br /> • Managed project timelines and communicated progress regularly
+                            with clients.
+                            <br /> • Built and launched over 20 successful websites for local businesses,
+                            contributing to increased client engagement and sales.
+                        </em>
+                    </p>
+                </div>
+                <div class="col-lg-3">
+                    <p>
+                        <sm>07/2023 - Present <br />
+                            Philippines</sm>
+                    </p>
+                </div>
+
+                <!-- Work Experience #2 -->
+                <div class="col-lg-6 offset-lg-3">
+                    <p class="tight">
+                        <t>Senior Frontend Developer</t><br />
+                        Digital Ventures <br />
+                    </p>
+                    <p>
+                        <em> • Led a team of frontend developers in creating and maintaining
+                            client-facing websites with a focus on responsive design and
+                            accessibility.
+                            <br /> • Architected and developed complex user interfaces using React and
+                            Vue.js.
+                            <br /> • Collaborated closely with design and backend teams to ensure
+                            seamless integration and optimal performance.
+                            <br /> • Implemented best practices for SEO and web performance,
+                            significantly improving site visibility and load times.
+                            <br /> • Conducted code reviews and mentored junior developers, fostering
+                            a culture of continuous improvement and learning.
+                            <br /> • Reduced page load times by 40% through optimized coding
+                            practices and performance enhancements.
+                        </em>
+                    </p>
+                </div>
+                <div class="col-lg-3">
+                    <p>
+                        <sm>06/2019 - 11/2022 <br />
+                            Pasig, Philippines</sm>
+                    </p>
+                </div>
+
+                <!-- Work Experience #3-->
+                <div class="col-lg-6 offset-lg-3">
+                    <p class="tight">
+                        <t>Frontend Developer</t><br />
+                        Creative Solutions Co <br
+                            />
+                    </p>
+                    <p>
+                        <em> • Developed and maintained multiple client-facing websites with a
+                            focus on responsive design and accessibility.
+                            <br /> • Utilized React and Vue.js to create interactive and dynamic user
+                            interfaces.
+                            <br /> • Worked closely with the design team to translate mockups into fully
+                            functional web pages.
+                            <br /> • Implemented best practices for SEO to improve site visibility and
+                            ranking.
+                            <br /> • Integrated RESTful APIs to fetch and display data dynamically on the
+                            frontend.
+                        </em>
+                    </p>
+                </div>
+                <div class="col-lg-3">
+                    <p>
+                        <sm>05/2017 - 02/2019 <br />
+                            Taguig, Philippines</sm>
+                    </p>
+                </div>
+
+                <!-- Work Experience #4-->
+                <div class="col-lg-6 offset-lg-3">
+                    <p class="tight">
+                        <t>Frontend Developer Intern</t><br />
+                        Tech Innovations Inc<br />
+                    </p>
+                    <p>
+                        <em>Assisted in the development of web applications using HTML, CSS,
+                            and JavaScript.
+                            <br /> • Collaborated with senior developers to implement responsive design
+                            principles.
+                            <br /> • Conducted user testing and provided feedback to improve user
+                            interfaces.
+                            <br /> • Debugged and resolved frontend issues to enhance performance
+                            and usability.
+                            
+                        </em>
+                    </p>
+                </div>
+                <div class="col-lg-3">
+                    <p>
+                        <sm>05/2016 - 03/2017 <br />
+                            Makati, Philippines</sm>
+                    </p>
+                </div>
+            </div>
+            <br />
+            <hr>
+        </div>
+
+
+        <!-- SKILLS SECTION -->
+        <div id="skills" class="container desc navsection">
+            <div class="row">
+                <div class="col-lg-2 offset-lg-1">
+                    <!-- Skills Heading-->
+                    <h5 class="subheading">SKILLS & PROFICIENCIES</h5>
+                </div>
+                <!-- Skillset Tabs -->
+                <div class="tab">
+                    <button class="tablinks" onclick="openSkill(event, 'Prog')">General
+                        Programming</button>
+                    <button class="tablinks" onclick="openSkill(event,
+                        'WebDev')">Web Development & Design</button>
+                    <button class="tablinks" onclick="openSkill(event,
+                        'GD&3D')">Graphic Design & 3D Modelling</button>
+                    <button class="tablinks" onclick="openSkill(event, 'Lang')">Languages</button>
+                </div>
+
+                <!-- Skillset #1 -->
+                <div id="Prog" class="col-lg-9 offset-lg-3 tabcontent">
+                    <p>
+                        <t>General Programming</t>
+                        <span class="closeSkill"
+                            onclick="this.parentElement.parentElement.style.display='none'"><i
+                                class="fas fa-times-circle"></i></span>
+                        <br />
+                        <div>
+                            <div class="skill">
+                                <sm>C++</sm>
+                            </div>
+                            <div class="skill">
+                                <sm>Python</sm>
+                            </div>
+                            <div class="skill">
+                                <sm>Java</sm>
+                            </div>
+                            <div class="skill">
+                                <sm>Laravel</sm>
+                            </div>
+                            <div class="skill">
+                                <sm>C</sm>
+                            </div>
+                            <div class="skill">
+                                <sm>R (Statistics)</sm>
+                            </div>
+                            <div class="skill">
+                                <sm>SQL</sm>
+                            </div>
+                            <div class="skill">
+                                <sm>Data Structures</sm>
+                            </div>
+                            <div class="skill">
+                                <sm>Object-Oriented Programming</sm>
+                            </div>
+                            <div class="skill">
+                                <sm>Functional Programming</sm>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+
+                <!-- Skillset #2 -->
+                <div id="WebDev" class="col-lg-9 offset-lg-3 tabcontent">
+                    <p>
+                        <t>Web Development & Design</t>
+                        <span class="closeSkill"
+                            onclick="this.parentElement.parentElement.style.display='none'"><i
+                                class="fas fa-times-circle"></i></span>
+                        <br />
+                        <div>
+                            <div class="skill">
+                                <sm>HTML</sm>
+                            </div>
+                            <div class="skill">
+                                <sm>CSS</sm>
+                            </div>
+                            <div class="skill">
+                                <sm>Bootstrap</sm>
+                            </div>
+                            <div class="skill">
+                                <sm>Tailwindcss</sm>
+                            </div>
+                            <div class="skill">
+                                <sm>React.js</sm>
+                            </div>
+                            <div class="skill">
+                                <sm>Vue.js</sm>
+                            </div>
+                            <div class="skill">
+                                <sm>Angular.js</sm>
+                            </div>
+                            <div class="skill">
+                                <sm>JavaScript</sm>
+                            </div>
+                            <div class="skill">
+                                <sm>SQL</sm>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+
+                <!-- Skillset #3 -->
+                <div id="GD&3D" class="col-lg-9 offset-lg-3 tabcontent">
+                    <p>
+                        <t>Graphic Design & 3D Modelling</t>
+                        <span class="closeSkill"
+                            onclick="this.parentElement.parentElement.style.display='none'"><i
+                                class="fas fa-times-circle"></i></span>
+                        <br />
+                        <div>
+                            <div class="skill">
+                                <sm>Adobe Illustrator</sm>
+                            </div>
+                            <div class="skill">
+                                <sm>Adobe Photoshop</sm>
+                            </div>
+                            <div class="skill">
+                                <sm>Blender</sm>
+                            </div>
+                            <div class="skill">
+                                <sm>Adobe InDesign</sm>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+
+                <!-- Skillset #4 -->
+                <div id="Lang" class="col-lg-9 offset-lg-3 tabcontent">
+                    <p>
+                        <t>Languages</t>
+                        <span class="closeSkill"
+                            onclick="this.parentElement.parentElement.style.display='none'"><i
+                                class="fas fa-times-circle"></i></span>
+                        <br />
+                        <div>
+                            <div class="skill">
+                                <sm>Filipino</sm>
+                            </div>
+                            <div class="skill">
+                                <sm>English</sm>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+
+            </div>
+            <br />
+            <hr>
+        </div>
+
+        <!-- APPLICATION DEVELOPMENT PROJECTS SECTION -->
+        <div id="projects" class="container desc navsection">
+            <div class="row">
+                <div class="col-lg-2 offset-lg-1">
+                    <!-- Application Development Projects Heading-->
+                    <h5 class="subheading">PROJECTS</h5>
+                </div>
+                <!-- Application Development Project #1-->
+                <div class="col-lg-6">
+                    <p class="tight">
+                        <t><a target="_blank"
+                                href="https://www.jcjunkremovals.com/">
+                                JC Junk Removal
+                            </a></t>
+                    </p>
+                    <p>
+                        <em>The JC Junk Removal website showcases its commitment to tidiness with a soothing green and white color scheme. It boasts a user-centric design for easy navigation and features like “Quick Inquiry” for streamlined service requests. Built using Vue.js for dynamic user interaction and Tailwind CSS for a responsive layout, the site functions flawlessly on any device. Backend technologies, including Node.js, Express.js, MySQL, and MongoDB, power a robust service platform, ensuring efficient customer data and booking management. This cohesive online space effectively mirrors JC Junk Removal’s professional and environmentally conscious brand identity.
+
+                            What stands out about JC Junk Removal’s online presence is the custom aspect. Every element on the website appears to have been thoughtfully designed to align with the brand's identity.
+                            
+                        </em>
+                    </p>
+                </div>
+
+                <!-- Application Development Project #2-->
+                <div class="col-lg-6 offset-lg-3">
+                    <p class="tight">
+                        <t><a target="_blank"
+                                href="http://www.ouiwill.com">
+                                Oui Will
+                            </a></t>
+                    </p>
+                    <p>
+                        <em>I developed Oui Will's website using a combination of technologies, including Vue.js for the frontend and Laravel for the backend. This allowed me to create a site that is both visually stunning and highly functional. The site is also SEO-optimized, with a focus on keyword usage, meta tag optimization, and a well-structured site map to improve its visibility in search engine results.
+
+                        </em>
+                    </p>
+                </div>
+
+                <!-- Application Development Project #3-->
+                <div class="col-lg-6 offset-lg-3">
+                    <p class="tight">
+                        <t><a target="_blank"
+                                href="https://amerclothes.com">Amer Clothes</a></t>
+                    </p>
+                    <p>
+                        <em>For Amer Clothes, I delivered a custom website design that prioritizes user experience and brand identity, ensuring functionality across all devices.
+
+                            I implemented a backlink strategy that improved SEO by linking with authoritative fashion sites, boosting online credibility and visibility.
+                            
+                            Setting up and optimizing Amer Clothes' Google Business Profile was key for local SEO, enhancing the brand's presence in local searches and on Google Maps, drawing in more customers.
+                            
+                            Keyword optimization across the website targeted audience search intent, improving organic search rankings and increasing traffic.
+                            
+                            This comprehensive approach not only elevated Amer Clothes' digital presence but also laid the groundwork for ongoing growth and engagement in their digital marketing strategy.
+                            </em>
+                    </p>
+                </div>
+
+
+                <div class="col-lg-6 offset-lg-3">
+                    <p class="tight">
+                        <t><a target="_blank"
+                                href="https://www.equilo.com">Equilo</a></t>
+                    </p>
+                    <p>
+                        <em>Equilo's website was built using Angular, a powerful framework for developing dynamic web applications. The single-page application design offers a seamless user experience, with quick loading times and smooth transitions between pages. I also optimized the site for search engines, using SEO best practices such as keyword optimization, proper use of meta tags, and a well-structured site map. This has improved the site's ranking in search engine results and increased its visibility online.
+
+                            </em>
+                    </p>
+                </div>
+
+                <div class="col-lg-6 offset-lg-3">
+                    <p class="tight">
+                        <t><a target="_blank"
+                                href="https://www.markvii-loading.com">Markvii 7 Reloading</a></t>
+                    </p>
+                    <p>
+                        <em>This website is an e-commerce platform which sells different variety of products. 
+                            I developed using PHP, HTML and Bootstrap.
+                            </em>
+                    </p>
+                </div>
+
+            </div>
+            <br />
+            
+        </div>
+
+
+        <!--CONTACT SECTION-->
+        <section id="contact" name="contact" class="navsection"></section>
+
+        <!-- FOOTER SECTION -->
+        <div id="footwrap" class="footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-2 offset-lg-1" style="text-align:
+                        center">
+                        <!-- Contact Heading-->
+                        <h5 class="subheading">CONTACT ME</h5>
+                        <img class="footer-img" src="assets/casual-me.png">
+                    </div>
+
+                    <div class="col-lg-6">
+                        <p>
+                            <!-- Email Contact -->
+                            <t>Email</t>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <!-- Personal Email -->
+                                        <a
+                                            href="mailto:jose.luis6301997@gmail.com"
+                                            target="_blank"
+                                            class="mail">jose.luis6301997@gmail.com</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </p>
+                        <p>
+                            <!-- Address Contact -->
+                            <t>Address</t>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <!-- Indian Residential Address -->
+                                        Juan Dela Cruz
+                                        123 Brgy. Maligaya
+                                        San Jose Del Monte City
+                                        Bulacan, 3023
+                                        Philippines
+                                        <br />
+                                    </td>
+                                </tr>
+                            </table>
+                        </p>
+                        <p>
+                            <!-- Phone Contact -->
+                            <t>Phone</t><br />
+                            <table>
+                                <tr>
+                                    <td>
+                                        <!-- Indian Phone Number -->
+                                        <a href="tel:917042444664" class="tel">(+63)
+                                            9123456789</a> <br />
+                                    </td>
+                                </tr>
+                            </table>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <p style="text-align: center">
+                            <!-- Social Contact -->
+                            <t>Social Links</t>
+                        </p>
+                        <p style="text-align: center">
+                            <!--Github Link-->
+                            <!-- <a class="social-icon"
+                                href="https://github.com/AVS1508"
+                                target="_blank"><i
+                                    class="fab fa-github-square"></i></a>
+                            &ensp; -->
+                            <!--Behance Link-->
+                            <a class="social-icon"
+                                href="https://www.behance.net/AVS1508"
+                                target="_blank"><i
+                                    class="fab fa-behance-square"></i></a>
+                            &ensp;
+                            <!--LinkedIn Link-->
+                            <a class="social-icon"
+                                href="https://www.linkedin.com/in/avs1508"
+                                target="_blank"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <br /><br />
+                            <!--Facebook Link-->
+                            <a class="social-icon"
+                                href="https://www.facebook.com/AVS1508"
+                                target="_blank"><i
+                                    class="fab fa-facebook-square"></i></a>
+                            &ensp;
+                            <!--Instagram Link-->
+                            <a class="social-icon"
+                                href="https://www.instagram.com/adityavs_/"
+                                target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
+                            &ensp;
+                            <!--Snapchat Link-->
+                            <a class="social-icon"
+                                href="https://www.snapchat.com/add/avsingh134"
+                                target="_blank"><i
+                                    class="fab fa-snapchat-square"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
