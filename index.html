@@ -1,666 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section Design -->
 
-        <!-- Metadata of the Webpage -->
-        <!-- Character-set Metadata -->
-        <meta charset="utf-8">
-        <!-- Viewport Metadata -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0,
-            maximum-scale=1.0, user-scalable=no">
-        <!-- Description Metadata-->
-        <meta name="description" content="Personal Résumé Website of Aditya Vikram
-            Singh">
-        <!-- Author Metadata -->
-        <meta name="author" content="Aditya Vikram Singh">
-        <!-- Keyword Metadata -->
-        <meta name="keywords"
-            content="Aditya Singh, Aditya Vikram Singh, Aditya Vikram Singh DPS,
-            Aditya Vikram Singh DPSRKP, Aditya Vikram Singh UMass, Aditya Vikram
-            Singh UMass Amherst, Aditya Vikram Singh New Delhi, Aditya Vikram
-            Singh Amherst, Aditya Vikram Singh ISSDC, Aditya Vikram Singh NASA,
-            Aditya Vikram Singh, Aditya Vikram Singh Website, Aditya V Singh">
-        <!--OpenGraph Metadata-->
-        <!--OpenGraph Title-->
-        <meta property="og:title" content="Aditya Vikram Singh" />
-        <!--OpenGraph Description-->
-        <meta property="og:description" content="Aditya Vikram Singh" />
-        <!--OpenGraph Image-->
-        <meta property="og:image"
-            content="https://www.adityavsingh.com/assets/cocoa-beach-me.jpg" />
-        <!-- Webpage Logo -->
-        <link rel="shortcut icon" href="favicon.ico" />
-        <!-- Webpage Title -->
-        <title>Jose Luis</title>
+    <header class="header">
+      <a href="#home" class="logo"
+        >Jose
+        <span>Luis</span>
+      </a>
 
-        <!-- Bootstrap Core CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <!-- Google Fonts CSS -->
-        <!-- Rubik Font-->
-        <link href="https://fonts.googleapis.com/css?family=Rubik|DM+Sans&display=swap"
-            rel="stylesheet" type='text/css'>
-        <!-- main CSS -->
-        <link href="css/main.css" rel="stylesheet">
+      <i class="bx bx-menu" id="menu-bar"></i>
 
-        
-        <!--jQuery JS-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <!--Popper JS-->
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <!-- Font Awesome Logos JS-->
-        <script src="https://kit.fontawesome.com/ee9ada9308.js" crossorigin="anonymous"></script>
-        <!--Bootstrap JS-->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-        <!-- main JS -->
-        <script src="js/main.js"></script>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact Me</a>
+      </nav>
+    </header>
 
-    </head>
+    <!-- Home Section Design -->
 
-    <body>
-        <!--NAVIGATION MENU-->
-        <nav id="navmenu" class="navbar navbar-dark fixed-top navbar-expand-lg">
-            <div class="container col-lg-12">
-                <div class="collapse navbar-collapse" id="outerNavbar">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#workexperience">Work Experience</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
-                    </ul>
-                </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#outerNavbar" aria-controls="outerNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-        </nav>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hello, I am <span>Jose Luis</span></h1>
+        <h3 class="text-animation">I'm a <span></span></h3>
+        <p>
+          Highly skilled Senior Web Developer with over 7 years of experience in designing, developing, and maintaining complex web applications. Proficient in both frontend and backend technologies, with a strong focus on creating efficient, scalable, and user-friendly solutions. Proven track record of leading development teams and delivering high-quality projects on time and within budget.
+        </p>
 
-        <!--HEADER SECTION-->
-        <div id="home" class="header navsection">
-            <div class="container">
-                <div class="row centered">
-                    <div class="col-lg-12">
-                        <!-- Header Name -->
-                        <h1 id="heading-name">Jose Luis</h1>
-                        <!-- Header Description-->
-                        <h3 id="heading-desc">PROGRAMMER • WEB DEVELOPER •
-                            GRAPHIC DESIGNER</h3>
-                    </div>
-                </div>
-            </div>
+        <div class="social-icons">
+          <a href="https://discord.com/channels/@me"><i class="bx bxl-discord-alt"></i></a>
+          <a href="https://web.skype.com/?source=owa"><i class="bx bxl-skype"></i></a>
+          <a href="https://mail.google.com/mail/u/0/#inbox"><i class="bx bxl-gmail"></i></a>
+          <a href="https://github.com/joseluis882"><i class="bx bxl-github"></i></a>
         </div>
 
-        <!-- ABOUT SECTION -->
-        <section id="about" name="about" class="navsection"></section>
-        <div class="about">
-            <div style="text-align: center">
-                <!-- About Heading -->
-                <h5 class="subheading">ABOUT ME</h5>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-2" style="text-align:center;">
-                        <!-- About Image -->
-                        <img class="header-img .img-fluid"
-                            src="assets/casual-me.png">
-                    </div>
-                    <div class="col-lg-8">
-                        <!-- About Description -->
-                        <p id='about'>
-                            Innovative and results-driven Programmer, Web Developer, and Graphic Designer with over 7 years of experience in creating high-performance, visually appealing web applications. Adept in both frontend and backend development, with a keen eye for UI/UX design. Proven track record of managing teams, conducting code reviews, and delivering projects on time in Agile environments. Committed to continuous learning and staying updated with the latest industry trends.
-                        </p>
-                    </div>
-                    
-                </div>
-            </div>
+        <div class="btn-group">
+          <a href="#" class="btn" id="downloadCV">Download CV</a>
+          <a href="#contact" class="btn">Contact Me</a>
         </div>
+      </div>
+      <div class="home-img">
+        <img src="img/joseluis.png" alt="Profile Image" />
+      </div>
+    </section>
 
-        <!--SOCIAL MEDIA PANEL-->
-        <div class="social-panel-outer">
-            <div class="social-panel" style="opacity: 1; bottom: 40px;">
-                <!--Github Link-->
-                <!-- <a class="social-icon-2" href="https://github.com/AVS1508"
-                    target="_blank"><i
-                        class="fab fa-github-square"></i></a>
-                &emsp; -->
-                <!--Behance Link-->
-                <a class="social-icon-2" href="https://www.behance.net/AVS1508"
-                    target="_blank"><i
-                        class="fab fa-behance-square"></i></a>
-                &emsp;
-                <!--LinkedIn Link-->
-                <a class="social-icon-2"
-                    href="https://www.linkedin.com/in/avs1508" target="_blank"><i
-                        class="fab fa-linkedin"></i></a>
-                &emsp;
-                <!--Facebook Link-->
-                <a class="social-icon-2" href="https://www.facebook.com/AVS1508"
-                    target="_blank"><i
-                        class="fab fa-facebook-square"></i></a>
-                &emsp;
-                <!--Instagram Link-->
-                <a class="social-icon-2"
-                    href="https://www.instagram.com/adityavs_/" target="_blank"><i
-                        class="fab fa-instagram"></i></a>
-                &emsp;
-                <!--Snapchat Link-->
-                <a class="social-icon-2"
-                    href="https://www.snapchat.com/add/avsingh134"
-                    target="_blank"><i
-                        class="fab fa-snapchat-square"></i></a>
-            </div>
+    <!-- Education Section Design -->
+
+    <section class="education" id="education">
+      <h2 class="heading">Education</h2>
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dots"></div>
+          <div class="timeline-date">01/2014 - 01/2016</div>
+          <div class="timeline-content">
+            <h3>Bulacan State University</h3>
+            <p>
+              Bachelor of Science in Computer Science
+            </p>
+          </div>
         </div>
+      </div>
+    </section>
 
-        <!-- RESUME SECTION -->
-        <section id="resume" name="resume"></section>
-
-        <!-- EDUCATION SECTION -->
-        <div id="education" class="container desc navsection">
-            <div class="row">
-                <div class="col-lg-2 offset-lg-1">
-                    <!--Education Heading-->
-                    <h5 class="subheading">EDUCATION</h5>
-                </div>
-                <!--Education #1-->
-                <div class="col-lg-6">
-                    <p>
-                        <t>Bachelor of Science in Computer
-                            Science</t><br />
-                        
-                            Bulacan State University, Bulacan, Philippines
-                    </p>
-                </div>
-                <div class="col-lg-3">
-                    <p style="margin-bottom: 0;">
-                        
-                        
-                        <p style="line-height: 125%">
-                            <sm>01/2014 - 01/2016</sm>
-                        </p>
-                    </p>
-                </div>
-
-            </div>
-            <br />
-            <hr>
+    <section class="experience" id="experience">
+      <h2 class="heading">Work Experience</h2>
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dots"></div>
+          <div class="timeline-date">07/2023 - Present</div>
+          <div class="timeline-content">
+            <h3>Freelance Frontend Developer</h3>
+            <p>
+               - Developed custom websites for small businesses using HTML, CSS,
+                 and JavaScript.
+            </p>
+            <p>
+               - Ensured cross-browser compatibility and mobile responsiveness for
+                 all projects.
+            </p>
+            <p>
+              - Worked directly with clients to understand their needs and deliver
+              tailored solutions.
+           </p>
+            <p>
+              - Managed project timelines and communicated progress regularly
+              with clients.
+           </p>
+           <p>
+            - Built and launched over 20 successful websites for local businesses,
+            contributing to increased client engagement and sales.
+           </p>
+          </div>
         </div>
-
-       
-
-        <!-- WORK EXPERIENCE SECTION -->
-        <div id="workexperience" class="container desc navsection">
-            <div class="row">
-                <div class="col-lg-2 offset-lg-1">
-                    <!-- Work Experience Heading-->
-                    <h5 class="subheading">WORK EXPERIENCE</h5>
-                </div>
-                <!-- Work Experience #1 -->
-                <div class="col-lg-6">
-                    <p class="tight">
-                        <t>Freelance Web Developer</t><br />
-                        
-                    </p>
-                    <p>
-                        <em> • Developed custom websites for small businesses using HTML, CSS,
-                            and JavaScript.
-                            <br /> • Ensured cross-browser compatibility and mobile responsiveness for
-                            all projects.
-                            <br /> • Worked directly with clients to understand their needs and deliver
-                            tailored solutions.
-                            <br /> • Managed project timelines and communicated progress regularly
-                            with clients.
-                            <br /> • Built and launched over 20 successful websites for local businesses,
-                            contributing to increased client engagement and sales.
-                        </em>
-                    </p>
-                </div>
-                <div class="col-lg-3">
-                    <p>
-                        <sm>07/2023 - Present <br />
-                            Philippines</sm>
-                    </p>
-                </div>
-
-                <!-- Work Experience #2 -->
-                <div class="col-lg-6 offset-lg-3">
-                    <p class="tight">
-                        <t>Senior Frontend Developer</t><br />
-                        Digital Ventures <br />
-                    </p>
-                    <p>
-                        <em> • Led a team of frontend developers in creating and maintaining
-                            client-facing websites with a focus on responsive design and
-                            accessibility.
-                            <br /> • Architected and developed complex user interfaces using React and
-                            Vue.js.
-                            <br /> • Collaborated closely with design and backend teams to ensure
-                            seamless integration and optimal performance.
-                            <br /> • Implemented best practices for SEO and web performance,
-                            significantly improving site visibility and load times.
-                            <br /> • Conducted code reviews and mentored junior developers, fostering
-                            a culture of continuous improvement and learning.
-                            <br /> • Reduced page load times by 40% through optimized coding
-                            practices and performance enhancements.
-                        </em>
-                    </p>
-                </div>
-                <div class="col-lg-3">
-                    <p>
-                        <sm>06/2019 - 11/2022 <br />
-                            Pasig, Philippines</sm>
-                    </p>
-                </div>
-
-                <!-- Work Experience #3-->
-                <div class="col-lg-6 offset-lg-3">
-                    <p class="tight">
-                        <t>Frontend Developer</t><br />
-                        Creative Solutions Co <br
-                            />
-                    </p>
-                    <p>
-                        <em> • Developed and maintained multiple client-facing websites with a
-                            focus on responsive design and accessibility.
-                            <br /> • Utilized React and Vue.js to create interactive and dynamic user
-                            interfaces.
-                            <br /> • Worked closely with the design team to translate mockups into fully
-                            functional web pages.
-                            <br /> • Implemented best practices for SEO to improve site visibility and
-                            ranking.
-                            <br /> • Integrated RESTful APIs to fetch and display data dynamically on the
-                            frontend.
-                        </em>
-                    </p>
-                </div>
-                <div class="col-lg-3">
-                    <p>
-                        <sm>05/2017 - 02/2019 <br />
-                            Taguig, Philippines</sm>
-                    </p>
-                </div>
-
-                <!-- Work Experience #4-->
-                <div class="col-lg-6 offset-lg-3">
-                    <p class="tight">
-                        <t>Frontend Developer Intern</t><br />
-                        Tech Innovations Inc<br />
-                    </p>
-                    <p>
-                        <em>Assisted in the development of web applications using HTML, CSS,
-                            and JavaScript.
-                            <br /> • Collaborated with senior developers to implement responsive design
-                            principles.
-                            <br /> • Conducted user testing and provided feedback to improve user
-                            interfaces.
-                            <br /> • Debugged and resolved frontend issues to enhance performance
-                            and usability.
-                            
-                        </em>
-                    </p>
-                </div>
-                <div class="col-lg-3">
-                    <p>
-                        <sm>05/2016 - 03/2017 <br />
-                            Makati, Philippines</sm>
-                    </p>
-                </div>
-            </div>
-            <br />
-            <hr>
+        <div class="timeline-item">
+          <div class="timeline-dots"></div>
+          <div class="timeline-date">Digital Ventures, 06/2019 - 11/2022</div>
+          <div class="timeline-content">
+            <h3>Senior Frontend Developer</h3>
+            <p>
+               - Led a team of frontend developers in creating and maintaining
+                 client-facing websites with a focus on responsive design and
+                 accessibility.
+            </p>
+            <p>
+               - Architected and developed complex user interfaces using React and
+                 Vue.js.
+            </p>
+            <p>
+              - Collaborated closely with design and backend teams to ensure
+                seamless integration and optimal performance.
+           </p>
+           <p>
+            - Implemented best practices for SEO and web performance,
+              significantly improving site visibility and load times.
+           </p>
+           <p>
+            - Conducted code reviews and mentored junior developers, fostering
+              a culture of continuous improvement and learning.
+           </p>
+           <p>
+            - Reduced page load times by 40% through optimized coding
+              practices and performance enhancements.
+           </p>
+          </div>
         </div>
-
-
-        <!-- SKILLS SECTION -->
-        <div id="skills" class="container desc navsection">
-            <div class="row">
-                <div class="col-lg-2 offset-lg-1">
-                    <!-- Skills Heading-->
-                    <h5 class="subheading">SKILLS & PROFICIENCIES</h5>
-                </div>
-                <!-- Skillset Tabs -->
-                <div class="tab">
-                    <button class="tablinks" onclick="openSkill(event, 'Prog')">General
-                        Programming</button>
-                    <button class="tablinks" onclick="openSkill(event,
-                        'WebDev')">Web Development & Design</button>
-                    <button class="tablinks" onclick="openSkill(event,
-                        'GD&3D')">Graphic Design & 3D Modelling</button>
-                    <button class="tablinks" onclick="openSkill(event, 'Lang')">Languages</button>
-                </div>
-
-                <!-- Skillset #1 -->
-                <div id="Prog" class="col-lg-9 offset-lg-3 tabcontent">
-                    <p>
-                        <t>General Programming</t>
-                        <span class="closeSkill"
-                            onclick="this.parentElement.parentElement.style.display='none'"><i
-                                class="fas fa-times-circle"></i></span>
-                        <br />
-                        <div>
-                            <div class="skill">
-                                <sm>C++</sm>
-                            </div>
-                            <div class="skill">
-                                <sm>Python</sm>
-                            </div>
-                            <div class="skill">
-                                <sm>Java</sm>
-                            </div>
-                            <div class="skill">
-                                <sm>Laravel</sm>
-                            </div>
-                            <div class="skill">
-                                <sm>C</sm>
-                            </div>
-                            <div class="skill">
-                                <sm>R (Statistics)</sm>
-                            </div>
-                            <div class="skill">
-                                <sm>SQL</sm>
-                            </div>
-                            <div class="skill">
-                                <sm>Data Structures</sm>
-                            </div>
-                            <div class="skill">
-                                <sm>Object-Oriented Programming</sm>
-                            </div>
-                            <div class="skill">
-                                <sm>Functional Programming</sm>
-                            </div>
-                        </div>
-                    </p>
-                </div>
-
-                <!-- Skillset #2 -->
-                <div id="WebDev" class="col-lg-9 offset-lg-3 tabcontent">
-                    <p>
-                        <t>Web Development & Design</t>
-                        <span class="closeSkill"
-                            onclick="this.parentElement.parentElement.style.display='none'"><i
-                                class="fas fa-times-circle"></i></span>
-                        <br />
-                        <div>
-                            <div class="skill">
-                                <sm>HTML</sm>
-                            </div>
-                            <div class="skill">
-                                <sm>CSS</sm>
-                            </div>
-                            <div class="skill">
-                                <sm>Bootstrap</sm>
-                            </div>
-                            <div class="skill">
-                                <sm>Tailwindcss</sm>
-                            </div>
-                            <div class="skill">
-                                <sm>React.js</sm>
-                            </div>
-                            <div class="skill">
-                                <sm>Vue.js</sm>
-                            </div>
-                            <div class="skill">
-                                <sm>Angular.js</sm>
-                            </div>
-                            <div class="skill">
-                                <sm>JavaScript</sm>
-                            </div>
-                            <div class="skill">
-                                <sm>SQL</sm>
-                            </div>
-                        </div>
-                    </p>
-                </div>
-
-                <!-- Skillset #3 -->
-                <div id="GD&3D" class="col-lg-9 offset-lg-3 tabcontent">
-                    <p>
-                        <t>Graphic Design & 3D Modelling</t>
-                        <span class="closeSkill"
-                            onclick="this.parentElement.parentElement.style.display='none'"><i
-                                class="fas fa-times-circle"></i></span>
-                        <br />
-                        <div>
-                            <div class="skill">
-                                <sm>Adobe Illustrator</sm>
-                            </div>
-                            <div class="skill">
-                                <sm>Adobe Photoshop</sm>
-                            </div>
-                            <div class="skill">
-                                <sm>Blender</sm>
-                            </div>
-                            <div class="skill">
-                                <sm>Adobe InDesign</sm>
-                            </div>
-                        </div>
-                    </p>
-                </div>
-
-                <!-- Skillset #4 -->
-                <div id="Lang" class="col-lg-9 offset-lg-3 tabcontent">
-                    <p>
-                        <t>Languages</t>
-                        <span class="closeSkill"
-                            onclick="this.parentElement.parentElement.style.display='none'"><i
-                                class="fas fa-times-circle"></i></span>
-                        <br />
-                        <div>
-                            <div class="skill">
-                                <sm>Filipino</sm>
-                            </div>
-                            <div class="skill">
-                                <sm>English</sm>
-                            </div>
-                        </div>
-                    </p>
-                </div>
-
-            </div>
-            <br />
-            <hr>
+        <div class="timeline-item">
+          <div class="timeline-dots"></div>
+          <div class="timeline-date">Creative Solutions Co, 05/2017 - 02/2019</div>
+          <div class="timeline-content">
+            <h3>Frontend Developer</h3>
+            <p>
+               - Developed and maintained multiple client-facing websites with a
+               focus on responsive design and accessibility.
+            </p>
+            <p>
+               - Utilized React and Vue.js to create interactive and dynamic user
+               interfaces.
+            </p>
+            <p>
+              - Worked closely with the design team to translate mockups into fully
+              functional web pages.
+           </p>
+           <p>
+            - Implemented best practices for SEO to improve site visibility and
+            ranking.
+           </p>
+           <p>
+            - Integrated RESTful APIs to fetch and display data dynamically on the
+            frontend.
+           </p>
+          </div>
         </div>
+        <div class="timeline-item">
+          <div class="timeline-dots"></div>
+          <div class="timeline-date">Tech Innovations Inc, 05/2016 - 03/2017</div>
+          <div class="timeline-content">
+            <h3>Frontend Developer Intern</h3>
+            <p>
+               - Assisted in the development of web applications using HTML, CSS, and JavaScript.
+            </p>
+            <p>
+               - Collaborated with senior developers to implement responsive design
+               principles.
+            </p>
+            <p>
+              - Conducted user testing and provided feedback to improve user
+              interfaces.
+           </p>
+           <p>
+            - Debugged and resolved frontend issues to enhance performance
+            and usability.
+           </p>
+          </div>
+        </div>       
+      </div>
+    </section>
 
-        <!-- APPLICATION DEVELOPMENT PROJECTS SECTION -->
-        <div id="projects" class="container desc navsection">
-            <div class="row">
-                <div class="col-lg-2 offset-lg-1">
-                    <!-- Application Development Projects Heading-->
-                    <h5 class="subheading">PROJECTS</h5>
-                </div>
-                <!-- Application Development Project #1-->
-                <div class="col-lg-6">
-                    <p class="tight">
-                        <t><a target="_blank"
-                                href="https://www.jcjunkremovals.com/">
-                                JC Junk Removal
-                            </a></t>
-                    </p>
-                    <p>
-                        <em>The JC Junk Removal website showcases its commitment to tidiness with a soothing green and white color scheme. It boasts a user-centric design for easy navigation and features like “Quick Inquiry” for streamlined service requests. Built using Vue.js for dynamic user interaction and Tailwind CSS for a responsive layout, the site functions flawlessly on any device. Backend technologies, including Node.js, Express.js, MySQL, and MongoDB, power a robust service platform, ensuring efficient customer data and booking management. This cohesive online space effectively mirrors JC Junk Removal’s professional and environmentally conscious brand identity.
+    <section class="projects" id="projects">
+      <div class="projects-box">
+        <h2 class="heading">Projects</h2>
 
-                            What stands out about JC Junk Removal’s online presence is the custom aspect. Every element on the website appears to have been thoughtfully designed to align with the brand's identity.
-                            
-                        </em>
-                    </p>
-                </div>
-
-                <!-- Application Development Project #2-->
-                <div class="col-lg-6 offset-lg-3">
-                    <p class="tight">
-                        <t><a target="_blank"
-                                href="http://www.ouiwill.com">
-                                Oui Will
-                            </a></t>
-                    </p>
-                    <p>
-                        <em>I developed Oui Will's website using a combination of technologies, including Vue.js for the frontend and Laravel for the backend. This allowed me to create a site that is both visually stunning and highly functional. The site is also SEO-optimized, with a focus on keyword usage, meta tag optimization, and a well-structured site map to improve its visibility in search engine results.
-
-                        </em>
-                    </p>
-                </div>
-
-                <!-- Application Development Project #3-->
-                <div class="col-lg-6 offset-lg-3">
-                    <p class="tight">
-                        <t><a target="_blank"
-                                href="https://amerclothes.com">Amer Clothes</a></t>
-                    </p>
-                    <p>
-                        <em>For Amer Clothes, I delivered a custom website design that prioritizes user experience and brand identity, ensuring functionality across all devices.
-
-                            I implemented a backlink strategy that improved SEO by linking with authoritative fashion sites, boosting online credibility and visibility.
-                            
-                            Setting up and optimizing Amer Clothes' Google Business Profile was key for local SEO, enhancing the brand's presence in local searches and on Google Maps, drawing in more customers.
-                            
-                            Keyword optimization across the website targeted audience search intent, improving organic search rankings and increasing traffic.
-                            
-                            This comprehensive approach not only elevated Amer Clothes' digital presence but also laid the groundwork for ongoing growth and engagement in their digital marketing strategy.
-                            </em>
-                    </p>
-                </div>
-
-
-                <div class="col-lg-6 offset-lg-3">
-                    <p class="tight">
-                        <t><a target="_blank"
-                                href="https://www.equilo.com">Equilo</a></t>
-                    </p>
-                    <p>
-                        <em>Equilo's website was built using Angular, a powerful framework for developing dynamic web applications. The single-page application design offers a seamless user experience, with quick loading times and smooth transitions between pages. I also optimized the site for search engines, using SEO best practices such as keyword optimization, proper use of meta tags, and a well-structured site map. This has improved the site's ranking in search engine results and increased its visibility online.
-
-                            </em>
-                    </p>
-                </div>
-
-                <div class="col-lg-6 offset-lg-3">
-                    <p class="tight">
-                        <t><a target="_blank"
-                                href="https://www.markvii-loading.com">Markvii 7 Reloading</a></t>
-                    </p>
-                    <p>
-                        <em>This website is an e-commerce platform which sells different variety of products. 
-                            I developed using PHP, HTML and Bootstrap.
-                            </em>
-                    </p>
-                </div>
-
-            </div>
-            <br />
+        <div class="wrapper">
+          <div class="project-item">
+            <a href="https://www.jcjunkremovals.com">
+              <img src="img/1.png" alt="project-1" />
+            </a>
+            <h3>JC Junk Removal</h3>
+          
             
+          </div>
+
+          <div class="project-item">
+            <a href="http://www.nuwarex.com">
+              <img src="img/2.png" alt="project-2" />
+            </a>
+            <h3>Nuwarex</h3>
+          </div>
+
+          <div class="project-item">
+            <a href="http://www.ouiwill.com">
+              <img src="img/3.png" alt="project-3" />
+            </a>
+            <h3>Oui Will</h3>
+          </div>
+
+          <div class="project-item">
+            <a href="https://amerclothes.com">
+              <img src="img/4.png" alt="project-4" />
+            </a>
+            <h3>Amer Clothes</h3>
+          </div>
+
+          <div class="project-item">
+            <a href="https://www.equilo.com">
+              <img src="img/5.png" alt="project-5" />
+            </a>
+            <h3>Equilo</h3>
+          </div>
+
+          <div class="project-item">
+            <a href="https://www.markvii-loading.com">
+              <img src="img/6.png" alt="project-6" />
+            </a>
+            <h3>Markvii Loading</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section Design -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="#">
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text" id ="name" placeholder="Full Name" />
+            <input type="email" id="email" placeholder="Email" />
+          </div>
+
+          <div class="input-box">
+            <input type="number" id="phonenumber" placeholder="Phone Number" />
+            <input type="text" id="subject" placeholder="Subject" />
+          </div>
         </div>
 
-
-        <!--CONTACT SECTION-->
-        <section id="contact" name="contact" class="navsection"></section>
-
-        <!-- FOOTER SECTION -->
-        <div id="footwrap" class="footer">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-2 offset-lg-1" style="text-align:
-                        center">
-                        <!-- Contact Heading-->
-                        <h5 class="subheading">CONTACT ME</h5>
-                        <img class="footer-img" src="assets/casual-me.png">
-                    </div>
-
-                    <div class="col-lg-6">
-                        <p>
-                            <!-- Email Contact -->
-                            <t>Email</t>
-                            <table>
-                                <tr>
-                                    <td>
-                                        <!-- Personal Email -->
-                                        <a
-                                            href="mailto:jose.luis6301997@gmail.com"
-                                            target="_blank"
-                                            class="mail">jose.luis6301997@gmail.com</a>
-                                    </td>
-                                </tr>
-                            </table>
-                        </p>
-                        <p>
-                            <!-- Address Contact -->
-                            <t>Address</t>
-                            <table>
-                                <tr>
-                                    <td>
-                                        <!-- Indian Residential Address -->
-                                        Juan Dela Cruz
-                                        123 Brgy. Maligaya
-                                        San Jose Del Monte City
-                                        Bulacan, 3023
-                                        Philippines
-                                        <br />
-                                    </td>
-                                </tr>
-                            </table>
-                        </p>
-                        <p>
-                            <!-- Phone Contact -->
-                            <t>Phone</t><br />
-                            <table>
-                                <tr>
-                                    <td>
-                                        <!-- Indian Phone Number -->
-                                        <a href="tel:917042444664" class="tel">(+63)
-                                            9123456789</a> <br />
-                                    </td>
-                                </tr>
-                            </table>
-                        </p>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <p style="text-align: center">
-                            <!-- Social Contact -->
-                            <t>Social Links</t>
-                        </p>
-                        <p style="text-align: center">
-                            <!--Github Link-->
-                            <!-- <a class="social-icon"
-                                href="https://github.com/AVS1508"
-                                target="_blank"><i
-                                    class="fab fa-github-square"></i></a>
-                            &ensp; -->
-                            <!--Behance Link-->
-                            <a class="social-icon"
-                                href="https://www.behance.net/AVS1508"
-                                target="_blank"><i
-                                    class="fab fa-behance-square"></i></a>
-                            &ensp;
-                            <!--LinkedIn Link-->
-                            <a class="social-icon"
-                                href="https://www.linkedin.com/in/avs1508"
-                                target="_blank"><i
-                                    class="fab fa-linkedin"></i></a>
-                            <br /><br />
-                            <!--Facebook Link-->
-                            <a class="social-icon"
-                                href="https://www.facebook.com/AVS1508"
-                                target="_blank"><i
-                                    class="fab fa-facebook-square"></i></a>
-                            &ensp;
-                            <!--Instagram Link-->
-                            <a class="social-icon"
-                                href="https://www.instagram.com/adityavs_/"
-                                target="_blank"><i
-                                    class="fab fa-instagram"></i></a>
-                            &ensp;
-                            <!--Snapchat Link-->
-                            <a class="social-icon"
-                                href="https://www.snapchat.com/add/avsingh134"
-                                target="_blank"><i
-                                    class="fab fa-snapchat-square"></i></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <div class="input-group-2">
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
         </div>
-    </body>
+      </form>
+    </section>
+
+    <!-- Footer Section Design -->
+
+    <footer class="footer">
+      <div class="social-icons">
+        <a href="https://discord.com/channels/@me"><i class="bx bxl-discord-alt"></i></a>
+        <a href="https://web.skype.com/?source=owa"><i class="bx bxl-skype"></i></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox"><i class="bx bxl-gmail"></i></a>
+        <a href="https://github.com/joseluis882"><i class="bx bxl-github"></i></a>
+      </div>
+
+      <p class="copyright">© 2024 joseluis || All Rights Reserved</p>
+    </footer>
+
+    <script>
+      document.getElementById("downloadCV").addEventListener("click", function(event) {
+          event.preventDefault(); // Prevent the default anchor behavior
+          const link = document.createElement("a");
+          link.href = "E:/portfolio/devops123.github.io/JoseLuisResume(Frontend).pdf"; // Replace with the path to your CV file
+          link.download = "JoseLuisResume(Frontend).pdf"; // Replace with the desired file name
+          link.click();
+      });
+  </script>
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+  </body>
 </html>
