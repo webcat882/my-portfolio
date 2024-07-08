@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function sendEmail(name, email, phone, subject, message) {
-        emailjs.send("service_l8zdly4", "template_yd8ibzm", {
+        emailjs.send("service_l8zdly4", "template_3w34yl4", {
             from_name: name,
             from_email: email,
             phone: phone,
