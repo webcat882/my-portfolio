@@ -246,7 +246,7 @@
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me</span></h2>
 
-      <form action="#">
+      <form action="#" id="contactForm">
         <div class="input-group">
           <div class="input-box">
             <input type="text" id ="name" placeholder="Full Name" />
@@ -294,6 +294,12 @@
           link.click();
       });
   </script>
+   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+   <script>
+    (function(){
+        emailjs.init("tNJ1716vVd9rPzdJY"); // Replace 'YOUR_USER_ID' with your EmailJS user ID
+    })();
+</script>
     <script src="script.js"></script>
     <script src="contact.js"></script>
   </body>
