@@ -262,11 +262,6 @@ span {
   80% {
     content: "PHP Developer";
   }
-
-  81%,
-  100% {
-    content: "Web Designer";
-  }
 }
 
 @keyframes typing {
