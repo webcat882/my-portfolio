@@ -240,7 +240,7 @@ span {
   }
 }
 
-@keyframes words {
+/* @keyframes words {
   0%,
   20% {
     content: "Senior Frontend Developer";
@@ -272,7 +272,7 @@ span {
   85% {
     width: calc(100% + 8px);
   }
-}
+} */
 
 /* Education Section CSS */
 
