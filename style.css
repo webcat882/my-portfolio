@@ -1,6 +1,4 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
   text-decoration: none;
@@ -245,22 +243,7 @@ span {
 @keyframes words {
   0%,
   20% {
-    content: "Frontend Developer";
-  }
-
-  21%,
-  40% {
-    content: "Backend Developer";
-  }
-
-  41%,
-  60% {
-    content: "Mern Stack Developer";
-  }
-
-  61%,
-  80% {
-    content: "PHP Developer";
+    content: "Senior Frontend Developer";
   }
 }
 
