@@ -218,11 +218,11 @@ span {
   position: relative;
 }
 
-.text-animation span::before {
+/* .text-animation span::before {
   content: "Web Developer";
   color: var(--main-color);
   animation: words 20s infinite;
-}
+} */
 .text-animation span::after {
   content: "";
   background-color: var(--bg-color);
